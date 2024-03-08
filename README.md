@@ -53,8 +53,3 @@
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/nilanjan-debnath/nilanjan-debnath/output/snake.svg" alt="Snake animation" />
-
-###
