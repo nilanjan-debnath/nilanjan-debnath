@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block main %}
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'css/projects.css' %}">
+</head>
+<body>
+    <div id="intro">
+        <div id="info">
+            <h1>Hello, I'm Nilanjan ッ</h1>
+            <p>
+                I am a B Tech IT student having interest in Data Science Field. I love working with ML and DL libraries and exploring new AI technologies and open-source LLM models. 
+            </p>
+        </div>
+        <img src="{% static 'photos/photo1.png' %}" alt="My image">
+    </div>
+    <div id="scroll">
+        <img src="https://assets-global.website-files.com/60f5a97b9e66c2b92c76a14e/6140a7f1ccfe242db78e97b5_Vector.svg" width="21" alt="">
+    </div>
+    <div id="projects">
+        <div class="project">
+            <div class="image">
+            </div>
+            <h3>
+                Project 1
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iusto ipsum laborum numquam repellendus ab, minima, odio perspiciatis quibusdam est blanditiis! Asperiores, animi reiciendis dolores dolorum facilis quibusdam? Consectetur, corrupti?
+            </p>
+            <div class="line"></div>
+            <div class="more">Learn more</div>
+        </div>
+
+    </div>
+</body>
+{% endblock %}

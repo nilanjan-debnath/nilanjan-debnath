@@ -1,0 +1,29 @@
+#li1{
+    color: #0d0c21;
+}
+#intro{
+    padding: 3vw calc(15vw - 50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+#info{
+width: 40vw;
+padding: 1vh 4vw;
+display: flex;
+flex-direction: column;
+}
+#info>h1{
+    color: #0d0c21;
+}
+#info>p{
+    color: #56555E;
+    line-height: 1.5;
+}
+#intro>img{
+    margin: 1vh 1vw;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #CED6CE;
+}
