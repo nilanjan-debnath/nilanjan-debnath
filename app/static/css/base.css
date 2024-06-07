@@ -1,7 +1,7 @@
 body {
   background-color: #FCFCFC;
   font-family: Inter;
-  width: 100%;
-  padding: 0;
+  /* width: 100%; */
+  padding: 0 calc(15vw - 50px);
   margin: 0;
 }

@@ -1,5 +1,5 @@
 nav {
-  padding: 5vh calc(15vw - 50px);
+  padding: 5vh 0;
   height: 10vh;
   display: flex;
   justify-content: space-between;
