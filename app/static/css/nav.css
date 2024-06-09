@@ -1,9 +1,12 @@
 nav {
-  padding: 5vh 0;
-  height: 10vh;
+  margin: 6vh 0;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(45px);
 }
 nav > h1 {
   color: #0d0c21;
@@ -25,4 +28,5 @@ nav > ul > li:hover {
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
