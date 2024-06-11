@@ -5,7 +5,7 @@ class Projects(models.Model):
     title=models.CharField(max_length=350)
     details=models.CharField(max_length=1000, default=None)
     url=models.URLField(default=None)
-    image=models.ImageField(upload_to="app/upload/images",default=None)
+    image=models.ImageField(upload_to="app/media/images",default=None)
 
     def __str__(self):
         return self.title
