@@ -8,7 +8,7 @@ def split(value, separator):
     return value.split(separator)
 
 def projects(request):
-    projects = Projects.objects.all()
+    projects = Projects.objects.all().order_by('index')
     return render(request, "projects.html", {"projects":projects})
 
 def experiences(request):
