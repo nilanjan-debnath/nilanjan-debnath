@@ -15,10 +15,10 @@ def resizeImage(file_path):
     resized_image.save(file_path, optimize=True, quality=75)
 
 class Projects(models.Model):
-    index = models.IntegerField()
+    index = models.IntegerField(default=None)
     title = models.CharField(max_length=350)
     details = models.TextField(max_length=1000, default=None)
-    url = models.URLField(default=None)
+    url = models.URLField(default=None, null=True)
     image = models.ImageField(upload_to="media/Projects/Images", default=None)
 
     def __str__(self):
@@ -32,9 +32,10 @@ class Projects(models.Model):
             resizeImage(image_path)
 
 class Expriences(models.Model):
-    index = models.IntegerField()
+    index = models.IntegerField(default=None)
     title=models.CharField(max_length=100)
     company=models.CharField(max_length=100)
+    url = models.URLField(default=None)
     details=models.TextField(max_length=5000, default=None)
     startdate=models.DateField()
     enddate=models.DateField()
